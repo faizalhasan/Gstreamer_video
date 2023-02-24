@@ -105,7 +105,6 @@ int main(int argc, char *argv[])
    
     
     pthread_create(&thread, NULL, keyboard_handler, ptr);
-   // pthread_join(&thread, NULL);
    
    pthread_join(thread, NULL);
    /* Free resources */
