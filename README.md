@@ -13,4 +13,4 @@ The Gstreamer player takes input from the command line interface to do the follo
   
 use the following commands to compile the above code:
 $gcc video_player.c -g -o video_player lib_play.c `pkg-config --cflags --libs gstreamer-1.0`
-$./video_player
+                                                                          $./video_player
